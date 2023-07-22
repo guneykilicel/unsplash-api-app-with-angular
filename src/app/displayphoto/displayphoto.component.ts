@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PhotoService } from '../photo.service';
 
 @Component({
   selector: 'app-displayphoto',
@@ -6,5 +7,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./displayphoto.component.css']
 })
 export class DisplayphotoComponent {
+  photoUrl:string='';
+
+  constructor(private photoService : PhotoService) {}
+
+  ngOnInit(): void {
+    this.getImages();
+  }
+
+  getImages() {
+    this.photoService.getPhotos().subscribe(response => {
+      this.photoUrl = response.urls.regular;
+      console.log(this.photoUrl);
+    })
+  }
+
+  onClick() {
+    this.getImages();
+  }
 
 }
