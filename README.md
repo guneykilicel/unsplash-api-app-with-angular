@@ -25,3 +25,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+![](https://github.com/guneykilicel/unsplash-api-app-with-angular/blob/main/src/assets/gitI/U1.png)
+![](https://github.com/guneykilicel/unsplash-api-app-with-angular/blob/main/src/assets/gitI/U2.png)
+![](https://github.com/guneykilicel/unsplash-api-app-with-angular/blob/main/src/assets/gitI/U3.png)
